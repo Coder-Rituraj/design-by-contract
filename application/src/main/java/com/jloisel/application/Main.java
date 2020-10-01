@@ -53,6 +53,7 @@ public final class Main {
 			new WiringModule()
 		);
 
+		// Creating Car Object
 		final Car car = injector.getInstance(Car.class);
 		final PowerBand powerBand = car.powerBand();
 
